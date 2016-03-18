@@ -1,0 +1,352 @@
+Team_Name,Rank,Team_Id
+The Citadel,1,1154
+Marshall,2,1267
+Maine,3,1263
+Washington,4,1449
+Green Bay,5,1453
+Nebraska Omaha,6,1303
+Utah Valley,7,1430
+Memphis,8,1272
+Northwestern St.,9,1322
+BYU,10,1140
+Detroit,11,1178
+UMass Lowell,12,1262
+UNLV,13,1424
+Oakland,14,1324
+Lipscomb,15,1252
+Monmouth,16,1284
+UT Arlington,17,1426
+Youngstown St.,18,1464
+Duquesne,19,1182
+Winthrop,20,1457
+St. John's,21,1385
+LSU,22,1261
+LIU Brooklyn,23,1134
+Buffalo,24,1138
+Cornell,25,1165
+New Orleans,26,1309
+UTSA,27,1427
+Eastern Kentucky,28,1184
+Portland St.,29,1340
+Arkansas St.,30,1117
+Lamar,31,1249
+UTEP,32,1431
+Army,33,1119
+Auburn,34,1120
+Central Arkansas,35,1146
+Portland,36,1339
+Belmont,37,1125
+Xavier,38,1462
+Wake Forest,39,1448
+North Carolina,40,1314
+Florida St.,41,1199
+North Dakota,42,1315
+Illinois Chicago,43,1227
+Nevada,44,1305
+Hampton,45,1214
+Iona,46,1233
+USC,47,1425
+Sacred Heart,48,1357
+Bucknell,49,1137
+Fairfield,50,1193
+Cal St. Northridge,51,1169
+Southeast Missouri St.,52,1369
+Louisiana Tech,53,1256
+New Mexico,54,1307
+South Dakota,55,1377
+Fairleigh Dickinson,56,1192
+Elon,57,1189
+Iowa St.,58,1235
+San Francisco,59,1362
+Hawaii,60,1218
+Massachusetts,61,1269
+Mississippi Valley St.,62,1290
+Howard,63,1224
+Eastern Michigan,64,1185
+Rutgers,65,1353
+Stetson,66,1391
+Jacksonville,67,1239
+Appalachian St.,68,1111
+South Carolina,69,1376
+Charlotte,70,1150
+North Florida,71,1316
+Davidson,72,1172
+UNC Asheville,73,1421
+Brown,74,1135
+Creighton,75,1166
+Marquette,76,1266
+Indiana St.,77,1232
+Northern Arizona,78,1319
+Oklahoma,79,1328
+Idaho St.,80,1226
+Rice,81,1349
+Siena,82,1373
+Saint Joseph's,83,1386
+Louisiana Lafayette,84,1418
+Houston Baptist,85,1223
+West Virginia,86,1452
+UNC Wilmington,87,1423
+Boston University,88,1131
+North Texas,89,1317
+San Jose St.,90,1363
+Long Beach St.,91,1253
+TCU,92,1395
+Coppin St.,93,1164
+UMBC,94,1420
+Arkansas,95,1116
+Southern Illinois,96,1356
+Boise St.,97,1129
+Austin Peay,98,1122
+UCLA,99,1417
+Eastern Washington,100,1186
+Ohio,101,1325
+Morgan St.,102,1288
+IPFW,103,1236
+VCU,104,1433
+Florida A&M,105,1197
+Longwood,106,1255
+South Alabama,107,1375
+Virginia Tech,108,1439
+Tennessee Tech,109,1399
+NJIT,110,1312
+Mississippi St.,111,1280
+Hofstra,112,1220
+Iowa,113,1234
+Florida,114,1196
+Providence,115,1344
+Seton Hall,116,1371
+Lafayette,117,1248
+Chicago St.,118,1152
+Toledo,119,1405
+Hartford,120,1216
+Missouri St.,121,1283
+East Tennessee St.,122,1190
+Nicholls St.,123,1311
+Grand Canyon,124,1213
+Gardner Webb,125,1205
+Prairie View A&M,126,1341
+Tennessee,127,1397
+Fresno St.,128,1201
+Southern,129,1380
+VMI,130,1440
+Alabama St.,131,1106
+Kennesaw St.,132,1244
+Saint Louis,133,1387
+Quinnipiac,134,1346
+Cal St. Fullerton,135,1168
+Oral Roberts,136,1331
+IUPUI,137,1237
+Minnesota,138,1278
+Montana St.,139,1286
+Colorado,140,1160
+Washington St.,141,1450
+Butler,142,1139
+Tulsa,143,1409
+Western Carolina,144,1441
+Bowling Green,145,1132
+Northern Colorado,146,1294
+Princeton,147,1343
+Mount St. Mary's,148,1291
+Mississippi,149,1279
+Lehigh,150,1250
+William & Mary,151,1456
+Georgia Southern,152,1204
+Sacramento St.,153,1170
+Kansas,154,1242
+Evansville,155,1191
+Missouri,156,1281
+South Dakota St.,157,1355
+Norfolk St.,158,1313
+Colorado St.,159,1161
+Southeastern Louisiana,160,1368
+Cal St. Bakersfield,161,1167
+Robert Morris,162,1352
+Akron,163,1103
+Oregon,164,1332
+Arizona,165,1112
+Samford,166,1359
+Texas A&M Corpus Chris,167,1394
+Tennessee St.,168,1398
+UAB,169,1412
+McNeese St.,170,1270
+Florida Atlantic,171,1194
+Georgetown,172,1207
+Richmond,173,1350
+Illinois,174,1228
+Indiana,175,1231
+St. Bonaventure,176,1382
+Western Illinois,177,1442
+Charleston Southern,178,1149
+Marist,179,1265
+Campbell,180,1144
+Penn,181,1335
+Troy,182,1407
+Northern Illinois,183,1296
+Tulane,184,1408
+Vanderbilt,185,1435
+California,186,1143
+Western Michigan,187,1444
+North Carolina St.,188,1301
+George Mason,189,1206
+Arizona St.,190,1113
+Texas Southern,191,1411
+Ohio St.,192,1326
+Manhattan,193,1264
+Purdue,194,1345
+Bryant,195,1136
+Southern Utah,196,1381
+Abilene Christian,197,1101
+Dartmouth,198,1171
+Duke,199,1181
+UCF,200,1416
+Maryland Eastern Shore,201,1271
+South Carolina St.,202,1354
+North Carolina A&T,203,1299
+Jackson St.,204,1238
+Delaware,205,1174
+Sam Houston St.,206,1358
+UT Rio Grande Valley,207,1410
+Incarnate Word,208,1230
+Pepperdine,209,1337
+Bradley,210,1133
+Central Connecticut,211,1148
+Weber St.,212,1451
+Eastern Illinois,213,1183
+UNC Greensboro,214,1422
+Northern Kentucky,215,1297
+Loyola Marymount,216,1258
+Vermont,217,1436
+Gonzaga,218,1211
+Kentucky,219,1246
+Maryland,220,1268
+Michigan St.,221,1277
+Dayton,222,1173
+Oregon St.,223,1333
+James Madison,224,1241
+Illinois St.,225,1229
+Stephen F. Austin,226,1372
+UC Irvine,227,1414
+Middle Tennessee,228,1292
+Georgia Tech,229,1210
+Kent St.,230,1245
+Canisius,231,1145
+Loyola MD,232,1259
+Western Kentucky,233,1443
+Presbyterian,234,1342
+Texas A&M,235,1401
+Georgia,236,1208
+DePaul,237,1177
+UC Riverside,238,1415
+New Hampshire,239,1306
+Utah St.,240,1429
+Villanova,241,1437
+Air Force,242,1102
+Pacific,243,1334
+East Carolina,244,1187
+Boston College,245,1130
+Kansas St.,246,1243
+Bethune Cookman,247,1126
+USC Upstate,248,1367
+Coastal Carolina,249,1157
+Central Michigan,250,1141
+Fordham,251,1200
+South Florida,252,1378
+UC Santa Barbara,253,1364
+Albany,254,1107
+Stony Brook,255,1392
+Nebraska,256,1304
+Tennessee Martin,257,1404
+Delaware St.,258,1175
+San Diego,259,1360
+Florida Gulf Coast,260,1195
+Valparaiso,261,1434
+Cal Poly,262,1142
+George Washington,263,1203
+Milwaukee,264,1454
+Chattanooga,265,1151
+Utah,266,1428
+Houston,267,1222
+Wichita St.,268,1455
+Niagara,269,1310
+New Mexico St.,270,1308
+UMKC,271,1282
+Penn St.,272,1336
+SIU Edwardsville,273,1188
+La Salle,274,1247
+Texas Tech,275,1403
+Michigan,276,1276
+Louisville,277,1257
+St. Francis PA,278,1384
+High Point,279,1219
+Louisiana Monroe,280,1419
+North Carolina Central,281,1300
+St. Francis NY,282,1383
+Savannah St.,283,1366
+Harvard,284,1217
+Connecticut,285,1163
+Montana,286,1285
+Temple,287,1396
+Radford,288,1347
+Baylor,289,1124
+Yale,290,1463
+Santa Clara,291,1365
+Seattle,292,1370
+UC Davis,293,1413
+Stanford,294,1390
+SMU,295,1374
+Idaho,296,1225
+Pittsburgh,297,1338
+Drake,298,1179
+Grambling St.,299,1212
+Towson,300,1406
+Wright St.,301,1460
+Wagner,302,1447
+FIU,303,1198
+Alabama A&M,304,1105
+Miami FL,305,1274
+Ball St.,306,1123
+Alcorn St.,307,1108
+Texas,308,1400
+Wofford,309,1459
+Loyola Chicago,310,1260
+Jacksonville St.,311,1240
+Cincinnati,312,1153
+Binghamton,313,1127
+Northeastern,314,1318
+Morehead St.,315,1287
+Furman,316,1202
+Notre Dame,317,1323
+Columbia,318,1162
+Navy,319,1298
+Syracuse,320,1393
+San Diego St.,321,1361
+Colgate,322,1159
+Georgia St.,323,1209
+Rhode Island,324,1348
+Alabama,325,1104
+Rider,326,1351
+Wyoming,327,1461
+Saint Peter's,328,1389
+Arkansas Pine Bluff,329,1115
+Drexel,330,1180
+North Dakota St.,331,1295
+Holy Cross,332,1221
+Cleveland St.,333,1156
+Murray St.,334,1293
+Miami OH,335,1275
+College of Charleston,336,1158
+Clemson,337,1155
+Oklahoma St.,338,1329
+Northwestern,339,1321
+Mercer,340,1273
+Liberty,341,1251
+Arkansas Little Rock,342,1114
+Texas St.,343,1402
+Southern Miss,344,1379
+Wisconsin,345,1458
+Northern Iowa,346,1320
+Old Dominion,347,1330
+American,348,1110
+Saint Mary's,349,1388
+Denver,350,1176
+Virginia,351,1438
