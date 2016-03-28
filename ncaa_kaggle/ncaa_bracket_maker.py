@@ -39,7 +39,7 @@ class bracket_create:
 			'Colorado', 'Connecticut',
 			'Maryland', 'S Dakota St',
 			'California', 'Hawaii',
-			'Arizona', 'Vanderbilt',
+			'Arizona', 'Wichita St',
 			'Buffalo', 'Miami FL',
 			'Iowa', 'Temple',
 			'UNC Asheville', 'Villanova',
@@ -69,35 +69,38 @@ class bracket_create:
 			'Michigan St', 'MTSU']
 
 		self.tourney_teams['round2'] = [ 'Connecticut', 'Kansas',
-			'California', 'Maryland',
-			'Arizona', 'Miami FL',
+			'Hawaii','Maryland',
+			'Miami FL', 'Wichita St',
 			'Iowa', 'Villanova',
 			'Oregon', "St Joseph's PA",
-			'Baylor', 'UNC Wilmington',
-			'Texas','Texas A&M', 
+			'Duke', 'Yale',
+			'Northern Iowa','Texas A&M', 
 			'Oklahoma', 'VA Commonwealth', #split
 			'North Carolina', 'Providence',
 			'Indiana', 'Kentucky',
-			'Notre Dame', 'West Virginia',
-			'Pittsburgh', 'Xavier',
+			'Notre Dame', 'SF Austin',
+			'Wisconsin', 'Xavier',
 			'Butler', 'Virginia',
-			'Iowa St', 'Purdue',
-			'Seton Hall', 'Utah',
-			'Dayton', 'Michigan St']
+			'Ark Little Rock', 'Iowa St',
+			'Gonzaga', 'Utah',
+			'MTSU','Syracuse']
 
-		self.tourney_teams['round3'] = ['California','Kansas',
+		self.tourney_teams['round3'] = ['Kansas','Maryland',
 		'Miami FL', 'Villanova',
-		'Baylor','Oregon',
+		'Duke','Oregon',
 		'Oklahoma','Texas A&M', #split
 		'Indiana','North Carolina',
-		'West Virginia', 'Xavier',
-		'Purdue', 'Virginia',
-		'Michigan St','Utah']
+		'Notre Dame', 'Wisconsin',
+		'Iowa St', 'Virginia',
+		'Gonzaga','Syracuse']
 
 		self.tourney_teams['round4'] = ['Kansas','Villanova',
 		'Oklahoma', 'Oregon',
-		'North Carolina','Xavier',
-		'Michigan St', 'Virginia']
+		'North Carolina','Notre Dame',
+		'Syracuse', 'Virginia']
+
+		self.tourney_teams['round5'] = ['Oklahoma', 'Villanova',
+		'North Carolina', 'Syracuse']
 
 
 	def draw_everything(self):
@@ -105,7 +108,7 @@ class bracket_create:
 		Calls all of the other functions. Its an all in one!
 		"""
 
-		for rnd in ['round1','round2','round3','round4']:
+		for rnd in ['round1','round2','round3','round4','round5']:
 		
 			self.team_ids_from_name(rnd)
 			self.matches(rnd)
@@ -115,6 +118,7 @@ class bracket_create:
 		self.plot_round2()
 		self.plot_round3()
 		self.plot_round4()
+		self.plot_round5()
 
 		print("call .fig to get the bracket!")
 
@@ -288,7 +292,30 @@ class bracket_create:
 
 		print('round 4 printed!')
 
+	def plot_round5(self):
+
+
+		left_teams = self.left_teams['round5']
+		right_teams = self.right_teams['round5']
+		l_probs = self.left_probs['round5']
+		r_probs = self.right_probs['round5']
+
+
 		
+		lt = left_teams[0]
+		rt = right_teams[0]
+		#Round 1
+		#left side
+		lp = round(l_probs[0],2)
+		rp = round(r_probs[0],2)
+
+		self.fig.text(.45, .5,lt[1] + ' ' + str(1 - lp) ) 
+		self.fig.text(.45, .53,lt[0] + ' ' + str(lp))
+		#right side
+		self.fig.text(1-.45, .5, rt[1]+ ' ' + str(1-rp) )
+		self.fig.text(1-.45, .53, rt[0] + ' ' + str(rp) )
+
+		print('round 5 printed!')		
 
     
     
