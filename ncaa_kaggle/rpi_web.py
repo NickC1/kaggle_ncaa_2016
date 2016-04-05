@@ -101,8 +101,8 @@ def draw_histogram():
 
 	#put some text on it
 	ax.plot(pt1,pt2)
-	fig.text(.2,.8,'Dive Score = ' + str(dive_score[0]))
-	fig.text(.2,.7,'Dive Rank = ' + str(dive_rank[0]))
+	fig.text(.6,.8,'Dive Score = ' + str(dive_score[0]))
+	fig.text(.6,.7,'Dive Rank = ' + str(dive_rank[0]))
 	ax.set_xlabel('Log Loss')
 	ax.set_ylabel('Count')
 

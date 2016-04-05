@@ -102,13 +102,14 @@ class bracket_create:
 		self.tourney_teams['round5'] = ['Oklahoma', 'Villanova',
 		'North Carolina', 'Syracuse']
 
+		self.tourney_teams['round6'] = ['North Carolina','Villanova']
 
 	def draw_everything(self):
 		"""
 		Calls all of the other functions. Its an all in one!
 		"""
 
-		for rnd in ['round1','round2','round3','round4','round5']:
+		for rnd in ['round1','round2','round3','round4','round5', 'round6']:
 		
 			self.team_ids_from_name(rnd)
 			self.matches(rnd)
@@ -119,6 +120,7 @@ class bracket_create:
 		self.plot_round3()
 		self.plot_round4()
 		self.plot_round5()
+		self.plot_round6()
 
 		print("call .fig to get the bracket!")
 
@@ -174,6 +176,10 @@ class bracket_create:
 
 		L_ids = self.L_ids[round_num]
 		R_ids = self.R_ids[round_num]
+
+		#hackey, but should work
+		if round_num =='round6':
+			R_ids = L_ids
 		#strings for table lookup
 		L_lookup = ['2016_' + str(Li[0]) + '_' + str(Li[1]) for Li in L_ids]
 		R_lookup = ['2016_' + str(Ri[0]) + '_' + str(Ri[1]) for Ri in R_ids]
@@ -315,7 +321,25 @@ class bracket_create:
 		self.fig.text(1-.45, .5, rt[1]+ ' ' + str(1-rp) )
 		self.fig.text(1-.45, .53, rt[0] + ' ' + str(rp) )
 
-		print('round 5 printed!')		
+		print('round 5 printed!')
+
+
+	def plot_round6(self):
+		
+		lt = self.left_teams['round6'][0]
+		lp = self.left_probs['round6']
+
+		lp = round(lp[0],2)
+
+		txt = lt[1] + ' ' + str(1 - lp)+ "\n" + lt[0] + ' ' + str(lp)
+		
+
+		self.fig.text(.46,.10,txt,fontsize=20,
+			 bbox=dict(facecolor='none', edgecolor='black', boxstyle='round,pad=1'))
+		#self.fig.text(.47, .1,lt[1] + ' ' + str(1 - lp),fontsize=17 ) 
+		#self.fig.text(.47, .13,lt[0] + ' ' + str(lp),fontsize=17)
+
+
 
     
     
